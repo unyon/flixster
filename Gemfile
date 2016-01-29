@@ -32,6 +32,15 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+#add figaro
+gem "figaro"
+
+#add carrierwave
+gem 'carrierwave'
+
+#gem for aws pic upload
+gem "fog", "~> 1.3.1"
+
 #add devise gem
 gem 'devise'
 
