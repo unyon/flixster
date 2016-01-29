@@ -38,6 +38,9 @@ gem "figaro"
 #add carrierwave
 gem 'carrierwave'
 
+#mini-magick Image
+gem 'mini_magick', '~> 4.3.1'
+
 #gem for aws pic upload
 gem "fog", "~> 1.3.1"
 
