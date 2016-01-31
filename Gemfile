@@ -41,8 +41,11 @@ gem 'carrierwave'
 #mini-magick Image
 gem 'mini_magick', '~> 4.3.1'
 
+#carrierwaveaws
+gem 'carrierwave-aws'
+
 #gem for aws pic upload
-gem "fog", "~> 1.3.1"
+#gem "fog", "~> 1.3.1"
 
 #add devise gem
 gem 'devise'
