@@ -33,7 +33,7 @@ gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
 #add figaro
-gem "figaro"
+gem 'figaro'
 
 #add carrierwave
 gem 'carrierwave'
