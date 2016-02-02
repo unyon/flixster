@@ -53,6 +53,9 @@ gem 'devise'
 #add simpleform
 gem 'simple_form'
 
+#add stripe for user's payments
+gem 'stripe'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
