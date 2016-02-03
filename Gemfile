@@ -56,6 +56,12 @@ gem 'simple_form'
 #add stripe for user's payments
 gem 'stripe'
 
+#add ranked model gem
+gem 'ranked-model'
+
+#add jQuery UI
+gem 'jquery-ui-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
