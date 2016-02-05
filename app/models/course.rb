@@ -1,14 +1,23 @@
 class Course < ActiveRecord::Base
-	searchkick
-	belongs_to :user
-	has_many :sections
-	has_many :enrollments
-	
-	mount_uploader :image, ImageUploader
 
-	validates :title, presence: true
-	validates :description, presence: true
-	validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0}
+	def self.search(search)
+  if search
+    where('title LIKE ?', "%#{search}%")
+  else
+    all
+  end
+end
+
+		belongs_to :user
+		has_many :sections
+		has_many :enrollments
+
+		mount_uploader :image, ImageUploader
+
+		validates :title, presence: true
+		validates :description, presence: true
+		validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0}
+
 
 	def free?
 		cost.zero?

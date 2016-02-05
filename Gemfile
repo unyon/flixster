@@ -62,8 +62,9 @@ gem 'ranked-model'
 #add jQuery UI
 gem 'jquery-ui-rails'
 
-#search bar
-gem "searchkick"
+#search sunspot
+gem 'sunspot_rails'
+gem 'sunspot_solr' # optional pre-packaged Solr distribution for use in development
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
