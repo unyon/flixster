@@ -62,6 +62,9 @@ gem 'ranked-model'
 #add jQuery UI
 gem 'jquery-ui-rails'
 
+#search bar
+gem "searchkick"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
