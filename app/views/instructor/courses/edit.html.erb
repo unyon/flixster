@@ -1,0 +1,13 @@
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+<h1>Edit Your Course</h1>
+<%= simple_form_for current_course, :url => instructor_course_path(current_course) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :cost %>
+    <%= f.input :image %>
+<br />
+<br />
+<%= f.submit 'Update', :class => 'btn btn-primary' %>
+<% end %>
+</div>
+
