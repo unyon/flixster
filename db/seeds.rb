@@ -73,7 +73,7 @@ section.save!
 section.lessons.create(title: "Lesson 7", subtitle: "Defense", video: seed_video('small'))
 section.lessons.create(title: "Lesson 8", subtitle: "Increase shooting range", video: seed_video('small'))
 #Course 4 HTML and CSS
-course = Course.create(title: 'Intro to Web Design', description: 'Build your own website 4 weeks!', cost: 50, image: seed_image('htmlcss'))
+course = Course.create(title: 'Intro to Web Design', description: 'Build your own website in 4 weeks!', cost: 50, image: seed_image('htmlcss'))
 course.save!
 section = course.sections.create(title: "Week 1")
 section.save!
@@ -111,7 +111,7 @@ section.save!
 section.lessons.create(title: "Lesson 7", subtitle: "User Interaction", video: seed_video('small'))
 section.lessons.create(title: "Lesson 8", subtitle: "jQuery and plugins", video: seed_video('small'))
 #Course 6 Ruby on Rails
-course = Course.create(title: 'Ruby on Rails', description: 'Build a site with Ruby on Rails 4 weeks!', cost: 50, image: seed_image('rails'))
+course = Course.create(title: 'Ruby on Rails', description: 'Build a site with Ruby on Rails in 4 weeks!', cost: 50, image: seed_image('rails'))
 course.save!
 section = course.sections.create(title: "Week 1")
 section.save!

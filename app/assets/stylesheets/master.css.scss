@@ -102,15 +102,16 @@ body {
 }
 
 .booyah-box a, {
-  color: #7D1D35 !important;
+  color: black !important;
 }
-.courseindex {
- text-align: center;
+.booyah-box img  {
+   display:block;
+   margin-left: 125px !important;
+   margin-right: auto;
+   margin: 0 auto;
+   vertical-align:middle;
 }
 
-.description {
-  display: block;
-}
 
 .clr {
   clear:both;
